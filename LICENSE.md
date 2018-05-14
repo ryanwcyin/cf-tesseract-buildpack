@@ -1,5 +1,7 @@
 Copyright (c) 2013 Marco Azimonti
+
 Copyright (c) 2015 Matteo Maggioni
+
 Copyright (c) 2018 Sebastien Cvilic
 
 Permission is hereby granted, free of charge, to any person obtaining
