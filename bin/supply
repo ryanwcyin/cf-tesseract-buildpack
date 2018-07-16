@@ -23,6 +23,9 @@ tar -zxvf $BUILDPACK_DIR/$TESSERACT_OCR_TGZ -C $INSTALL_DIR
 echo "Copy Tesseract-OCR training data"
 cp -r $BUILDPACK_DIR/tessdata $INSTALL_DIR
 
+echo "Copy gs"
+cp -r $BUILDPACK_DIR/gs $INSTALL_DIR/bin
+
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"$TESSERACT_OCR_DIR/bin:\$PATH\"" > $ENVSCRIPT
